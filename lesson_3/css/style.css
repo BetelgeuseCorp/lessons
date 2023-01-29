@@ -1,0 +1,66 @@
+@import url(reset.css);
+
+* {
+   background-color: lightcyan;
+}
+
+div {
+   color: goldenrod;
+}
+
+.geography1 {
+   color: seagreen;
+}
+
+.bbb {
+   color: yellow;
+}
+
+#top1,
+#way {
+   color: turquoise;
+}
+
+a {
+   color: green;
+}
+
+div.way1 {
+   color: blueviolet;
+}
+
+.main.name {
+   color: black;
+}
+
+.geography2,
+.geography3 {
+   color: deepskyblue;
+}
+
+.geography3 {
+   background-color: grey;
+}
+
+.text p {
+   color: yellow;
+   background-color: blue;
+}
+
+.history > p {
+   color: chartreuse;
+}
+span {
+   color: violet;
+}
+.history ~ p {
+   color: red;
+}
+
+.aaa + li {
+   color: blue;
+}
+
+[class*="__container"] {
+   color: blue;
+}
