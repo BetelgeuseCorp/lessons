@@ -1,0 +1,129 @@
+@import url(reset.css);
+
+@font-face {
+   font-family: "Gunny Rewritten";
+   src: url("../fonts/GunnyRewritten.woff2") format("woff2"), url("../fonts/GunnyRewritten.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Accuratist";
+   src: url("../fonts/Accuratist.woff2") format("woff2"), url("../Accuratist.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+body {
+   font-family: "Courier New", Courier, monospace, Helvetica, sans-serif; /* Times New Roman  за замовчуванням */
+   font-size: 18px; /* 16 за замовчуванням */
+   font-weight: 600; /* 400 (Regular) за замовчуванням */
+   color: rgba(3, 3, 27, 0.647); /* #000000 (чорний) за замовчуванням */
+}
+h1 {
+   font-family: "Accuratist";
+   font-size: 48px;
+   font-weight: 900;
+   text-align: center;
+   text-shadow: 2px -6px 5px rgba(60, 4, 4, 0.973);
+   text-transform: uppercase;
+   color: blue;
+   text-decoration: underline;
+}
+
+h2,
+a {
+   text-align: left;
+   color: chocolate;
+}
+
+h3,
+.image {
+   text-align: center;
+}
+.minus {
+   text-decoration: line-through;
+}
+
+.text1.p-1 {
+   font-family: "Cormorant Infant";
+   font-weight: 700;
+   color: blueviolet;
+   text-align: left;
+   line-height: 0.7;
+   text-indent: 20px;
+}
+.text1.p-2 {
+   font-family: "Cormorant Infant", serif;
+   font-weight: 300;
+   text-align: right;
+}
+.text1.p-3 {
+   font-family: "Courier New", cursive;
+   font-weight: 100;
+   font-size: 22px;
+   color: rgb(6, 89, 6);
+   text-align: justify;
+   text-decoration: underline;
+}
+
+.text1.p-4 {
+   font-family: "Accuratist", "Courier New", monospace;
+   font-weight: 700;
+   font-size: 28px;
+   color: rgb(88, 5, 133);
+   text-align: justify;
+}
+.text1.p-5 {
+   font-family: "Accuratist", "Courier New", monospace;
+   font-weight: 400;
+   font-size: 28px;
+   font-style: italic;
+   color: rgba(133, 5, 63, 0.8);
+   text-align: justify;
+}
+.text1.p-6 {
+   font-family: "Cormorant Infant", "Courier New", monospace;
+   font-weight: 400;
+   font-size: 28px;
+   font-style: italic;
+   color: rgba(104, 29, 63, 0.616);
+   text-align: right;
+   line-height: 3;
+}
+.text2.p-1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+   font-size: 10px;
+   font-style: oblique;
+   text-decoration: overline;
+}
+.text2.p-2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   font-style: oblique;
+   text-decoration: underline;
+   text-align: justify;
+}
+.text2.p-3 {
+   font-family: "Cormorant Infant", Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   color: red;
+   text-decoration: underline;
+   text-align: justify;
+   text-transform: capitalize;
+   white-space: nowrap;
+}
+.text2.p-4 {
+   font-family: "Cormorant Infant", Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: rgb(0, 255, 8);
+   text-align: justify;
+   text-transform: lowercase;
+   letter-spacing: 4px;
+}
+mark {
+   text-transform: uppercase;
+   font-weight: 600;
+}
