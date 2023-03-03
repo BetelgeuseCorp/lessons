@@ -1,0 +1,102 @@
+@import url(reset.css);
+
+[class*="__container"] {
+   max-width: 1500px;
+   margin: 0 auto;
+   padding: 15px;
+}
+.icon-list li {
+   display: inline-block;
+   margin-bottom: 10px;
+   padding: 15px;
+}
+
+.block-icons {
+   background: linear-gradient(to right, #00b4db, #0083b0);
+   border-radius: 5px;
+   margin-bottom: 2px;
+}
+.title {
+   font-size: 25px;
+   text-decoration: underline;
+   padding: 10px;
+   text-align: center;
+   margin-bottom: 5px;
+   font-weight: 700;
+}
+.icon-list li:not(:last-child) {
+   margin-right: 15px;
+}
+p {
+   font-size: 25px;
+   margin-bottom: 15px;
+   padding: 15px;
+}
+.block-design {
+   background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
+   border-radius: 5px;
+   margin-bottom: 2px;
+}
+.design {
+   margin-left: 20px;
+}
+.design li {
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   margin-bottom: 15px;
+}
+
+.design li:nth-child(1) {
+   background: url(../img/design/dotted.svg) no-repeat;
+}
+.design li:nth-child(2) {
+   background: url(../img/design/dotted_designgreen.svg) no-repeat;
+}
+.design li:nth-child(3) {
+   background: url(../img/design/dottedblue_des.svg) no-repeat;
+}
+.design li:nth-child(4) {
+   background: url(../img/design/ellipse_des.svg) no-repeat;
+}
+.design li:nth-child(5) {
+   background: url(../img/design/group_design.svg) no-repeat;
+}
+.design li:nth-child(6) {
+   background: url(../img/design/ovalblue_des.svg) no-repeat;
+}
+.design li:nth-child(7) {
+   background: url(../img/design/ovalgreen_des.svg) no-repeat;
+}
+.design li:nth-child(8) {
+   background: url(../img/design/quarter_design.svg) no-repeat;
+}
+.design li:nth-child(9) {
+   background: url(../img/design/shape_des.svg) no-repeat;
+}
+.design li:nth-child(10) {
+   background: url(../img/design/vector14.svg) no-repeat;
+}
+.design li:nth-child(11) {
+   background: url(../img/design/Vector15.svg) no-repeat;
+}
+.content {
+   background: linear-gradient(to right, #6d6027, #d3cbb8);
+   border-radius: 5px;
+}
+
+.content-list li {
+   display: inline-block;
+   max-width: 200px;
+}
+.content-list img {
+   width: 100%;
+   border-radius: 10px;
+}
+.content-list li:not(:last-child) {
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.content-list {
+   text-align: center;
+}
